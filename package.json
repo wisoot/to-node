@@ -1,0 +1,30 @@
+{
+  "name": "to-node",
+  "version": "0.1.0",
+  "description": "Todo server in Nodejs",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wisoot/to-node.git"
+  },
+  "author": "Wisoot Wongkamchai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wisoot/to-node/issues"
+  },
+  "homepage": "https://github.com/wisoot/to-node#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "moment": "^2.22.2",
+    "mysql": "^2.16.0",
+    "squel": "^5.12.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
