@@ -29,6 +29,7 @@ class ItemManagerGateway {
       .set('description', item.description)
       .set('is_finished', item.isFinished)
       .set('finished_at', item.finishedAt.format("YYYY-MM-DD HH:mm:ss"))
+      .where('id=?', item.id)
       .toString();
 
     try {

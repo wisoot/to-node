@@ -9,7 +9,7 @@ async function store(req, res) {
 
   const item = await itemManager.addItem(req.body.description);
 
-  res.json(ItemTransformer.transformItem(item), 201);
+  res.status(201).json(ItemTransformer.transformItem(item));
 }
 
 async function finish(req, res) {
